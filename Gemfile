@@ -21,7 +21,8 @@ gem 'faker'
 gem 'bootstrap-sass', '3.3.7'
 
 gem 'paperclip', '~> 5.2.0'
-
+gem 'gentelella-rails'
+gem 'bootstrap_form'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

@@ -15,4 +15,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require rails-ujs
+//= require gentelella
+//= require gentelella-custom
 //= require_tree .
