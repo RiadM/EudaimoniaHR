@@ -1,0 +1,1492 @@
+Started GET "/" for 127.0.0.1 at 2018-04-07 22:49:53 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/xerces/.rvm/gems/ruby-2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/xerces/.rvm/gems/ruby-2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 245ms (Views: 9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-07 22:57:58 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.3ms)
+  Rendered layouts/shared/_topnav.html.erb (0.9ms)
+  Rendered layouts/shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 51338ms (Views: 51336.7ms)
+
+
+Started GET "/general_elements.html" for 127.0.0.1 at 2018-04-07 22:59:03 -0400
+Processing by StaticController#general_elements as HTML
+  Rendering static/general_elements.erb within layouts/application
+  Rendered static/general_elements.erb within layouts/application (7.3ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 520ms (Views: 518.8ms)
+
+
+Started GET "/form.html" for 127.0.0.1 at 2018-04-07 22:59:08 -0400
+Processing by StaticController#form as HTML
+  Rendering static/form.erb within layouts/application
+  Rendered static/form.erb within layouts/application (17.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 469ms (Views: 467.9ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-07 22:59:15 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 434ms (Views: 432.6ms)
+
+
+Started GET "/login.html" for 127.0.0.1 at 2018-04-07 22:59:33 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/login.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/chartjs.html" for 127.0.0.1 at 2018-04-07 22:59:38 -0400
+Processing by StaticController#chartjs as HTML
+  Rendering static/chartjs.erb within layouts/application
+  Rendered static/chartjs.erb within layouts/application (0.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.9ms)
+  Rendered layouts/shared/_topnav.html.erb (0.9ms)
+  Rendered layouts/shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 578ms (Views: 577.2ms)
+
+
+Started GET "/chartjs2.html" for 127.0.0.1 at 2018-04-07 22:59:49 -0400
+Processing by StaticController#chartjs2 as HTML
+  Rendering static/chartjs2.erb within layouts/application
+  Rendered static/chartjs2.erb within layouts/application (0.8ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 415ms (Views: 413.8ms)
+
+
+Started GET "/echarts.html" for 127.0.0.1 at 2018-04-07 22:59:52 -0400
+Processing by StaticController#echarts as HTML
+  Rendering static/echarts.erb within layouts/application
+  Rendered static/echarts.erb within layouts/application (1.0ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 408ms (Views: 407.1ms)
+
+
+Started GET "/level2.html" for 127.0.0.1 at 2018-04-07 23:00:19 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/level2.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/chartjs.html" for 127.0.0.1 at 2018-04-07 23:00:23 -0400
+Processing by StaticController#chartjs as HTML
+  Rendering static/chartjs.erb within layouts/application
+  Rendered static/chartjs.erb within layouts/application (0.7ms)
+Started GET "/chartjs.html" for 127.0.0.1 at 2018-04-07 23:00:24 -0400
+Processing by StaticController#chartjs as HTML
+  Rendering static/chartjs.erb within layouts/application
+  Rendered static/chartjs.erb within layouts/application (6.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.8ms)
+  Rendered layouts/shared/_topnav.html.erb (0.7ms)
+  Rendered layouts/shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 922ms (Views: 920.9ms)
+
+
+  Rendered layouts/shared/_leftnav.html.erb (3.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 5248ms (Views: 5246.5ms)
+
+
+Started GET "/widgets.html" for 127.0.0.1 at 2018-04-07 23:00:31 -0400
+Processing by StaticController#widgets as HTML
+  Rendering static/widgets.erb within layouts/application
+  Rendered static/widgets.erb within layouts/application (3.3ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.5ms)
+  Rendered layouts/shared/_topnav.html.erb (1.0ms)
+  Rendered layouts/shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 1181ms (Views: 1178.3ms)
+
+
+Started GET "/projects.html" for 127.0.0.1 at 2018-04-07 23:00:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/projects.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/index.html" for 127.0.0.1 at 2018-04-07 23:00:56 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.6ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 494ms (Views: 492.8ms)
+
+
+Started GET "/index2.html" for 127.0.0.1 at 2018-04-07 23:00:58 -0400
+Processing by StaticController#index2 as HTML
+  Rendering static/index2.erb within layouts/application
+  Rendered static/index2.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.6ms)
+  Rendered layouts/shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 573ms (Views: 571.4ms)
+
+
+Started GET "/index3.html" for 127.0.0.1 at 2018-04-07 23:01:02 -0400
+Processing by StaticController#index3 as HTML
+  Rendering static/index3.erb within layouts/application
+  Rendered static/index3.erb within layouts/application (3.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 454ms (Views: 453.1ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-07 23:01:36 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.2ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.9ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 518ms (Views: 516.8ms)
+
+
+Started GET "/media_gallery.html" for 127.0.0.1 at 2018-04-07 23:02:12 -0400
+Processing by StaticController#media_gallery as HTML
+  Rendering static/media_gallery.erb within layouts/application
+  Rendered static/media_gallery.erb within layouts/application (0.7ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 526ms (Views: 524.8ms)
+
+
+Started GET "/form.html" for 127.0.0.1 at 2018-04-07 23:02:16 -0400
+Processing by StaticController#form as HTML
+  Rendering static/form.erb within layouts/application
+  Rendered static/form.erb within layouts/application (1.8ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 430ms (Views: 429.4ms)
+
+
+Started GET "/form.html?last-name=f&middle-name=" for 127.0.0.1 at 2018-04-07 23:02:35 -0400
+Processing by StaticController#form as HTML
+  Parameters: {"last-name"=>"f", "middle-name"=>""}
+  Rendering static/form.erb within layouts/application
+  Rendered static/form.erb within layouts/application (2.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.9ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 405ms (Views: 403.7ms)
+
+
+Started GET "/index2.html" for 127.0.0.1 at 2018-04-07 23:02:40 -0400
+Processing by StaticController#index2 as HTML
+  Rendering static/index2.erb within layouts/application
+  Rendered static/index2.erb within layouts/application (1.3ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 421ms (Views: 420.3ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-07 23:03:21 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 410ms (Views: 409.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2018-04-08 10:08:32 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/signup" for 127.0.0.1 at 2018-04-08 10:08:33 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:08:35 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.2ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 3104ms (Views: 3103.3ms)
+
+
+Started GET "/login.html" for 127.0.0.1 at 2018-04-08 10:10:33 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/login.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:13:33 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.4ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 426ms (Views: 424.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:14:08 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 2071ms (Views: 2069.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:17:23 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.2ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 403ms (Views: 402.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:17:31 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.8ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 413ms (Views: 412.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:17:51 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.3ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 426ms (Views: 424.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:18:07 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.0ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.9ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 388ms (Views: 387.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:18:42 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.2ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.6ms)
+  Rendered layouts/shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 525ms (Views: 524.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:19:04 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.3ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.9ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 536ms (Views: 534.7ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:19:18 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.8ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 434ms (Views: 433.3ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:19:18 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.0ms)
+  Rendered layouts/shared/_topnav.html.erb (0.6ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 388ms (Views: 386.5ms)
+
+
+Started GET "/form.html" for 127.0.0.1 at 2018-04-08 10:19:21 -0400
+Processing by StaticController#form as HTML
+  Rendering static/form.erb within layouts/application
+  Rendered static/form.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 487ms (Views: 486.0ms)
+
+
+Started GET "/form.html" for 127.0.0.1 at 2018-04-08 10:19:32 -0400
+Processing by StaticController#form as HTML
+  Rendering static/form.erb within layouts/application
+  Rendered static/form.erb within layouts/application (1.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 387ms (Views: 386.6ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:19:34 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (3.4ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.7ms)
+  Rendered layouts/shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 483ms (Views: 482.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:27:50 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (3.0ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.8ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 2731ms (Views: 2729.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:28:44 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (3.0ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 2310ms (Views: 2308.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:28:51 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.4ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 620ms (Views: 619.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 10:29:11 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.7ms)
+  Rendered layouts/shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 570ms (Views: 568.8ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:29:14 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 628ms (Views: 627.4ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:29:34 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.4ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 396ms (Views: 394.8ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:30:10 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 398ms (Views: 396.8ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:31:10 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.2ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 361ms (Views: 360.7ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:31:49 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 365ms (Views: 364.0ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:32:14 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 375ms (Views: 373.9ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:32:27 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.2ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.7ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 357ms (Views: 356.0ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:33:12 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.8ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 395ms (Views: 394.6ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:33:28 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (3.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 406ms (Views: 405.5ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:33:48 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:33:48 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 454ms (Views: 453.5ms)
+
+
+Completed 200 OK in 435ms (Views: 434.0ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:34:21 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (10.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 372ms (Views: 371.5ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:34:34 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.3ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 375ms (Views: 373.6ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:34:41 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 385ms (Views: 383.9ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:35:58 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 382ms (Views: 381.5ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:36:19 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.3ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.8ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 389ms (Views: 388.6ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:36:40 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 407ms (Views: 405.9ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:36:58 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.0ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 392ms (Views: 391.6ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:37:33 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 480ms (Views: 479.0ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:37:45 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 448ms (Views: 447.5ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:37:51 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 376ms (Views: 374.5ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:37:56 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 371ms (Views: 370.1ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:38:04 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 378ms (Views: 377.0ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:38:11 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 376ms (Views: 374.8ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:38:25 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.0ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 385ms (Views: 384.1ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:40:09 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.2ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.2ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 374ms (Views: 373.4ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:40:22 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.9ms)
+  Rendered layouts/shared/_topnav.html.erb (0.6ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 374ms (Views: 373.1ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:41:42 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.8ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 394ms (Views: 393.5ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:42:12 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 378ms (Views: 377.5ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:43:46 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.2ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 378ms (Views: 377.0ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:43:56 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.8ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.0ms)
+  Rendered layouts/shared/_topnav.html.erb (0.6ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 381ms (Views: 380.5ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:44:18 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 396ms (Views: 395.0ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:44:32 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 399ms (Views: 397.8ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:44:52 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.0ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.2ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 393ms (Views: 392.6ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:45:48 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.0ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 509ms (Views: 508.2ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:46:18 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.7ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 394ms (Views: 393.2ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:46:32 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.3ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 387ms (Views: 386.1ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:47:01 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.4ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 389ms (Views: 388.1ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:47:11 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.0ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 528ms (Views: 526.8ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:47:13 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 406ms (Views: 405.4ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:47:50 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 371ms (Views: 370.5ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:47:54 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.0ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 377ms (Views: 376.1ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:48:30 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 372ms (Views: 370.4ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:49:06 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 404ms (Views: 403.6ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:49:27 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.4ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 391ms (Views: 389.8ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:50:16 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.9ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 372ms (Views: 371.5ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:50:20 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 364ms (Views: 362.9ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:50:22 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 396ms (Views: 395.2ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 10:50:43 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 378ms (Views: 377.6ms)
+
+
+Started GET "/form.html" for 127.0.0.1 at 2018-04-08 10:50:44 -0400
+Processing by StaticController#form as HTML
+  Rendering static/form.erb within layouts/application
+  Rendered static/form.erb within layouts/application (2.4ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 377ms (Views: 375.8ms)
+
+
+Started GET "/ikitchen.html" for 127.0.0.1 at 2018-04-08 10:50:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/ikitchen.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/form.html" for 127.0.0.1 at 2018-04-08 10:51:50 -0400
+Processing by StaticController#form as HTML
+  Rendering static/form.erb within layouts/application
+  Rendered static/form.erb within layouts/application (1.7ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.1ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 393ms (Views: 392.7ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 10:51:52 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.2ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 393ms (Views: 391.9ms)
+
+
+Started GET "/form.html" for 127.0.0.1 at 2018-04-08 10:52:32 -0400
+Processing by StaticController#form as HTML
+  Rendering static/form.erb within layouts/application
+  Rendered static/form.erb within layouts/application (1.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 374ms (Views: 373.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:23:38 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.4ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.6ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 2938ms (Views: 2936.9ms)
+
+
+Started GET "/ikitchen.html" for 127.0.0.1 at 2018-04-08 11:23:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/ikitchen.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/form_wizard.html" for 127.0.0.1 at 2018-04-08 11:23:51 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/form_wizard.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 11:23:53 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (0.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.0ms)
+  Rendered layouts/shared/_topnav.html.erb (0.8ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 1916ms (Views: 1914.9ms)
+
+
+Started GET "/index2.html" for 127.0.0.1 at 2018-04-08 11:26:14 -0400
+Processing by StaticController#index2 as HTML
+  Rendering static/index2.erb within layouts/application
+  Rendered static/index2.erb within layouts/application (1.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 499ms (Views: 498.4ms)
+
+
+Started GET "/profile.html" for 127.0.0.1 at 2018-04-08 11:26:20 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/profile.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 11:29:06 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.7ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 515ms (Views: 514.2ms)
+
+
+Started GET "/ikitchen.html" for 127.0.0.1 at 2018-04-08 11:29:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/ikitchen.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 11:29:11 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (0.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 491ms (Views: 490.4ms)
+
+
+Started GET "/form_wizard.html" for 127.0.0.1 at 2018-04-08 11:31:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/form_wizard.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 11:32:15 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.2ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 524ms (Views: 523.2ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 11:34:13 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (0.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.2ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 391ms (Views: 390.5ms)
+
+
+Started GET "/ikitchen.html" for 127.0.0.1 at 2018-04-08 11:34:16 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/ikitchen.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 11:34:18 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 391ms (Views: 389.6ms)
+
+
+Started GET "/form_wizard.html" for 127.0.0.1 at 2018-04-08 11:34:22 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/form_wizard.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 11:34:23 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (0.7ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 405ms (Views: 404.7ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 11:34:55 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.0ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 381ms (Views: 380.3ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 11:35:17 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 412ms (Views: 411.3ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 11:35:40 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (0.8ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 387ms (Views: 386.8ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 11:36:02 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (0.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 390ms (Views: 389.0ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 11:36:05 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.8ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.2ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 408ms (Views: 406.3ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 11:47:26 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 2339ms (Views: 2337.8ms)
+
+
