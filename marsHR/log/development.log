@@ -1520,3 +1520,365 @@ Processing by StaticController#inbox as HTML
 Completed 200 OK in 2132ms (Views: 2131.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-08 12:20:50 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 2596ms (Views: 2594.7ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 12:21:08 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 2155ms (Views: 2154.0ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 12:21:24 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 572ms (Views: 570.7ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 12:21:25 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 565ms (Views: 564.5ms)
+
+
+Started GET "/chartjs.html" for 127.0.0.1 at 2018-04-08 12:22:56 -0400
+Processing by StaticController#chartjs as HTML
+  Rendering static/chartjs.erb within layouts/application
+  Rendered static/chartjs.erb within layouts/application (2.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.1ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 2444ms (Views: 2442.4ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 12:48:25 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.3ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 2483ms (Views: 2482.3ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 12:57:50 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (2.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 12:57:52 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.4ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 613ms (Views: 612.4ms)
+
+
+Completed 200 OK in 2606ms (Views: 2604.8ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 12:58:17 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.8ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 587ms (Views: 586.2ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 13:04:20 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 570ms (Views: 569.5ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 13:07:56 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.8ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 601ms (Views: 599.7ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 13:21:11 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (2.5ms)
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 13:21:12 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (2.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 2966ms (Views: 2964.2ms)
+
+
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 2857ms (Views: 2855.6ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 13:21:26 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 568ms (Views: 566.4ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 13:22:43 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 587ms (Views: 586.4ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 13:23:03 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 582ms (Views: 581.5ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 13:37:32 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 594ms (Views: 592.7ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 13:38:09 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.7ms)
+  Rendered layouts/shared/_leftnav.html.erb (1.0ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 13:38:09 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.7ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 13:38:09 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.8ms)
+Completed 200 OK in 501ms (Views: 500.2ms)
+
+
+  Rendered layouts/shared/_leftnav.html.erb (0.6ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 726ms (Views: 724.4ms)
+
+
+Completed 200 OK in 606ms (Views: 605.3ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 13:43:04 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.2ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 427ms (Views: 425.8ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 13:43:21 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 13:43:21 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.6ms)
+Completed 200 OK in 497ms (Views: 495.8ms)
+
+
+  Rendered layouts/shared/_leftnav.html.erb (1.3ms)
+  Rendered layouts/shared/_topnav.html.erb (0.6ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 496ms (Views: 492.0ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 13:43:22 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.8ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 434ms (Views: 432.9ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 13:58:15 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.9ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-08 13:58:16 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (0.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.9ms)
+  Rendered layouts/shared/_topnav.html.erb (0.4ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 486ms (Views: 485.3ms)
+
+
+Completed 200 OK in 461ms (Views: 460.1ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-08 14:14:57 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (1.4ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 389ms (Views: 388.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-10 18:47:04 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (2.1ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 3113ms (Views: 3112.1ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-10 18:48:19 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.4ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 488ms (Views: 487.4ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-10 18:48:42 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.9ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (1.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 1910ms (Views: 1908.8ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-10 18:48:49 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.6ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 478ms (Views: 477.6ms)
+
+
+Started GET "/index.html?last-name=dwdew&middle-name=" for 127.0.0.1 at 2018-04-10 18:49:03 -0400
+Processing by StaticController#index as HTML
+  Parameters: {"last-name"=>"dwdew", "middle-name"=>""}
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.9ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 504ms (Views: 502.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-11 13:38:51 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (3.5ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.7ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 2707ms (Views: 2705.6ms)
+
+
+Started GET "/?last-name=ewd&middle-name=" for 127.0.0.1 at 2018-04-11 13:39:05 -0400
+Processing by StaticController#index as HTML
+  Parameters: {"last-name"=>"ewd", "middle-name"=>""}
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (3.3ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.5ms)
+  Rendered layouts/shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 2147ms (Views: 2145.7ms)
+
+
+Started GET "/inbox.html" for 127.0.0.1 at 2018-04-11 13:40:17 -0400
+Processing by StaticController#inbox as HTML
+  Rendering static/inbox.erb within layouts/application
+  Rendered static/inbox.erb within layouts/application (1.3ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.4ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 423ms (Views: 422.1ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2018-04-11 13:40:23 -0400
+Processing by StaticController#index as HTML
+  Rendering static/index.erb within layouts/application
+  Rendered static/index.erb within layouts/application (0.8ms)
+  Rendered layouts/shared/_leftnav.html.erb (0.5ms)
+  Rendered layouts/shared/_topnav.html.erb (0.3ms)
+  Rendered layouts/shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 520ms (Views: 518.9ms)
+
+
